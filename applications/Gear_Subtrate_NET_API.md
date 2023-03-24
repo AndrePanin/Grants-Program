@@ -49,7 +49,7 @@ The first network powered by Gear Protocol is the [Vara Network](https://vara-ne
 ### Team members
 
 - Dennis Diatlov ([DennisInSky](https://github.com/DennisInSky))
-- ...
+- Dmitry Osipov ([osipov-mit](https://github.com/osipov-mit))
 
 ### Contact
 
@@ -74,11 +74,11 @@ The Gear team consists of engineers with vast experience in implementing open so
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
 - https://github.com/DennisInSky
+- https://github.com/osipov-mit
 
 ### Team LinkedIn Profiles (if available)
 
-- TBD
-- TBD
+- https://www.linkedin.com/in/dennisdyatlov/
 
 ## Development Roadmap :nut_and_bolt: - TBD
 
