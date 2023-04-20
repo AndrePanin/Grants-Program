@@ -27,7 +27,7 @@ The Gear's AssemblyScript library provides several functional capabilities for i
 
 1. We will produce a set of AssemblyScript functions using lower level abstractions for general interation with any Substrate-based network:
   1. General AssemblyScript library for interacting with any Substrate-based network. It will be a library that provides all the necessary and sufficient functions and methods for developing smart-contracts in accordance to of Gear Protocol's Actor model and other protocol's features.
-  2. A separate AssemblyScript library implementing Parity SCALE codec. Apparently there is no any at the moment. Such a libary can be used by any other one exposing their custom API surface for working with Substrate based network bypassing the library described in p 1.1. The codec can be used for any other communications not necessary related to blockchain.
+  2. A separate AssemblyScript library implementing Parity SCALE codec. Apparently there is no any at the moment (Actually there is an implementaion by LimeChain, but it covers small part of scale-codec and it hasn't been updated for a long time). Such a libary can be used by any other one exposing their custom API surface for working with Substrate based network bypassing the library described in p 1.1. The codec can be used for any other communications not necessary related to blockchain.
 
 ### Ecosystem Fit
 
