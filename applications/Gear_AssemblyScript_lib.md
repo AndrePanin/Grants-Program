@@ -27,7 +27,7 @@ The Gear's AssemblyScript library provides several functional capabilities for i
 
 1. We will produce a set of AssemblyScript functions using lower level abstractions for general interation with any Substrate-based network:
   1. General AssemblyScript library for interacting with any Substrate-based network. It will be a library that provides all the necessary and sufficient functions and methods for developing smart-contracts in accordance to of Gear Protocol's Actor model and other protocol's features.
-  2. A separate AssemblyScript library implementing Parity SCALE codec. Apparently there is no any at the moment. Such a libary can be used by any other one exposing their custom API surface for working with Substrate based network bypassing the library described in p 1.1. The codec can be used for any other communications not necessary related to blockchain.
+  2. A separate AssemblyScript library implementing Parity SCALE codec. Apparently there is no any at the moment (actually there is an implementation by [LimeChain](https://github.com/LimeChain/as-scale-codec/tree/master)). Such a libary can be used by any other one exposing their custom API surface for working with Substrate based network bypassing the library described in p 1.1. The codec can be used for any other communications not necessary related to blockchain.
 
 ### Ecosystem Fit
 
@@ -96,12 +96,8 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| 1. | Library: assemblyscript-scale-codec | We will deliver an Assemblyscript library that will implement SCALE codec to encode and decode data. |
+| 2. | Library: gstd | We will deliver an Assemblyscript library that will enable functionality to write smart-contracts on Gear |
 
 
 ### Milestone 2 Example — Additional features
